@@ -1,6 +1,6 @@
 # PRIVACY POLICY FOR STORYTIME BUDDY
 
-**Last Updated: December 2024**
+**Last Updated: December 2025**
 
 StoryTime Buddy ("we," "our," or "us") is committed to protecting the
 privacy of children and families who use our app. This Privacy Policy
@@ -218,4 +218,4 @@ children's stories are their own.**
 
 ------------------------------------------------------------------------
 
-© 2024 StoryTime Buddy. All rights reserved.
+© 2025 StoryTime Buddy. All rights reserved.
