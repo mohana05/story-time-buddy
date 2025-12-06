@@ -218,4 +218,4 @@ children's stories are their own.**
 
 ------------------------------------------------------------------------
 
-© 2025 StoryTime Buddy. All rights reserved.
+© 2025 mrrm mobile apps. All rights reserved.
