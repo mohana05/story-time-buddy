@@ -1,3 +1,7 @@
+---
+title: Terms of Service - StoryTime Buddy
+---
+
 # Terms of Service — StoryTime Buddy
 
 **Last Updated: July 2026**
