@@ -14,7 +14,7 @@ The following never leaves your device unless you use a cloud feature described 
 - Character preferences and settings
 - Reading progress, favorites, and tags
 - App preferences (language, voice settings, font choices)
-- Drawings and photos you attach to stories
+- Drawings and photos you use in stories (these never leave your device — cloud illustration requests contain only text descriptions)
 
 We do **not** require accounts or registration, do **not** collect names, email addresses, or contact information, do **not** track location, do **not** use advertising or analytics trackers, and do **not** serve advertisements.
 
@@ -31,7 +31,7 @@ Cloud AI features (part of the StoryTime Premium subscription, plus one free tri
 When you use cloud features, the following is sent through our server solely to create your story:
 
 - Your story idea/prompt and story text → **Anthropic** (Claude) to write the story
-- Scene descriptions, and any drawing or photo you attach → **Google** (Gemini) to create illustrations
+- Scene descriptions of each page — and, for character consistency, previously AI-generated story images — → **Google** (Gemini) to create illustrations. Your own photos and drawings are never sent.
 - Story text → **Microsoft** (Azure Speech) to create narration audio
 
 We use paid/enterprise API tiers of these services: **your content is never used to train AI models** and is not retained by these providers beyond transient processing and short-term abuse monitoring. Finished stories, images, and audio are returned to your device and stored only there — we keep no copy of your stories.
@@ -92,7 +92,7 @@ Device data uses iOS secure storage (SwiftData with iOS file protection). Server
 |---|---|---|
 | Apple | App distribution, purchases, on-device AI | Purchase/billing (under Apple's policy) |
 | Anthropic (Claude) | Cloud story text | Story prompts and text |
-| Google (Gemini) | Cloud illustrations | Scene descriptions, attached drawings/photos |
+| Google (Gemini) | Cloud illustrations | Scene descriptions + previously AI-generated story images (never your photos or drawings) |
 | Microsoft (Azure Speech) | Cloud narration | Story text |
 | Cloudflare | Our server infrastructure | Relays the above; no story content stored |
 | Supabase | Entitlement/usage database | Anonymous ID, purchase entitlements, usage counts, content reports |
