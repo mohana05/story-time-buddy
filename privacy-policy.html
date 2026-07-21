@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - StoryTime Buddy</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Hiragino Sans","Yu Gothic",sans-serif;max-width:760px;margin:0 auto;padding:24px 20px 60px;line-height:1.65;color:#2a2333;background:#fdfaf4}
+  h1{font-size:1.7em;margin:.4em 0}h2{font-size:1.2em;margin-top:1.8em;color:#4a3d63}
+  table{border-collapse:collapse;width:100%;font-size:.92em}th,td{border:1px solid #d9d2c4;padding:8px 10px;text-align:left;vertical-align:top}th{background:#f3eee2}
+  .langs{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 26px}
+  .langs button{border:1.5px solid #c9b47a;background:#fff;border-radius:999px;padding:7px 16px;font-size:.95em;cursor:pointer;color:#4a3d63}
+  .langs button.active{background:#f0b429;border-color:#f0b429;color:#231a33;font-weight:700}
+  .note{font-style:italic;color:#6f6582;font-size:.92em}
+  section[data-lang]{display:none}
+  .updated{color:#6f6582}
+</style>
+</head>
+<body>
+<div class="langs" role="tablist" aria-label="Language">
+  <button data-lang="en" onclick="setLang('en')">English</button>
+  <button data-lang="es" onclick="setLang('es')">Español</button>
+  <button data-lang="fr" onclick="setLang('fr')">Français</button>
+  <button data-lang="ja" onclick="setLang('ja')">日本語</button>
+</div>
+
+<!-- ============================== ENGLISH ============================== -->
+<section data-lang="en" lang="en">
+<h1>Privacy Policy for StoryTime Buddy</h1>
+<p class="updated"><strong>Last Updated: July 2026</strong></p>
+<p>StoryTime Buddy ("we," "our," or "us") is committed to protecting the privacy of children and families who use <strong>StoryTime Buddy: AI Stories</strong> (the "App"). This Privacy Policy explains what information the App handles, where it goes, and the choices you have.</p>
+<p>The short version: <strong>your stories live on your device.</strong> On devices with Apple Intelligence, stories can be created entirely on-device. Cloud AI features are optional, always require a grown-up's in-app permission first, and send only what is needed to create your story — never your identity.</p>
+
+<h2>1. Information Stored Only on Your Device</h2>
+<p>The following never leaves your device unless you use a cloud feature described in Section 2:</p>
+<ul>
+<li>Stories you create (text, images, and narration audio)</li>
+<li>Character preferences and settings</li>
+<li>Reading progress, favorites, and tags</li>
+<li>App preferences (language, voice settings, font choices)</li>
+<li>Drawings and photos you use in stories (these never leave your device — cloud illustration requests contain only text descriptions)</li>
+</ul>
+<p>We do <strong>not</strong> require accounts or registration, do <strong>not</strong> collect names, email addresses, or contact information, do <strong>not</strong> track location, do <strong>not</strong> use advertising or analytics trackers, and do <strong>not</strong> serve advertisements.</p>
+
+<h2>2. AI Processing</h2>
+<h3>2.1 On-Device AI (Apple Intelligence devices)</h3>
+<p>On supported devices, story text and illustrations can be generated entirely on your device using Apple Intelligence and Image Playground. Nothing is sent to us or anyone else, and your content is never used to train AI models.</p>
+<h3>2.2 Optional Cloud AI ("cloud magic")</h3>
+<p>Cloud AI features (part of the StoryTime Premium subscription, plus one free trial story on devices without Apple Intelligence) use trusted AI providers to create stories. <strong>Cloud features never run without a grown-up first granting permission inside the App</strong> (Settings → AI &amp; your privacy shows and revokes this permission at any time).</p>
+<p>When you use cloud features, the following is sent through our server solely to create your story:</p>
+<ul>
+<li>Your story idea/prompt and story text → <strong>Anthropic</strong> (Claude) to write the story</li>
+<li>Scene descriptions of each page — and, for character consistency, previously AI-generated story images — → <strong>Google</strong> (Gemini) to create illustrations. Your own photos and drawings are never sent.</li>
+<li>Story text → <strong>Microsoft</strong> (Azure Speech) to create narration audio</li>
+</ul>
+<p>We use paid/enterprise API tiers of these services: <strong>your content is never used to train AI models</strong> and is not retained by these providers beyond transient processing and short-term abuse monitoring. Finished stories, images, and audio are returned to your device and stored only there — we keep no copy of your stories.</p>
+<p>Requests travel through our server (hosted on Cloudflare), which enforces child-safety rules on every image request and does not log story content.</p>
+<h3>2.3 Safety</h3>
+<p>Every cloud illustration request is constrained server-side to child-safe, G-rated content, and generated images pass an automated safety check before reaching your device. You can report any story or picture from the reader (see Section 4).</p>
+
+<h2>3. Information We Process to Run the Service</h2>
+<p>To operate subscriptions and fair-use quotas, our server stores:</p>
+<ul>
+<li>An <strong>anonymous app-generated identifier</strong> (a random ID created on your device — it contains no personal information and is not linked to your identity)</li>
+<li><strong>Purchase entitlement records</strong> received from Apple (App Store transaction identifiers — never your payment details, which Apple keeps)</li>
+<li><strong>Usage counts</strong> (how many stories, images, and narration characters your subscription has used this month)</li>
+</ul>
+<p>This data cannot be used to identify you or your child and is used only to provide the service you purchased.</p>
+
+<h2>4. Content Reports</h2>
+<p>If you report a story or picture from the reader ("Report a problem"), we receive: the report category, the reported page's text, your optional note, and your anonymous identifier. We use reports only to review the content and improve our safety systems.</p>
+
+<h2>5. Bring-Your-Own-Key Voice Engines (optional)</h2>
+<p>If you connect your own Google Cloud or ElevenLabs API key for narration voices, your key is stored only on your device, and narration requests go directly from your device to that provider under <strong>your</strong> account and their privacy terms. This feature is intended for grown-ups.</p>
+
+<h2>6. Children's Privacy (COPPA)</h2>
+<p>StoryTime Buddy is designed for children ages 4–10.</p>
+<ul>
+<li>We do not collect personal information from children. No accounts, no social features, no chat, no behavioral advertising.</li>
+<li>Cloud AI features are gated behind a <strong>parental consent screen inside the App</strong> and a grown-up check; parents can revoke this permission at any time in Settings → AI &amp; your privacy.</li>
+<li>Story prompts should not include personal details (real full names, addresses, phone numbers). The App does not ask for them and they are not needed to make a great story.</li>
+<li>Purchases are protected by a parental gate in addition to Apple's own purchase protections.</li>
+</ul>
+
+<h2>7. In-App Purchases</h2>
+<p>All purchases are processed by Apple through the App Store. We never see your payment information. Manage or cancel subscriptions in your Apple ID settings; purchases support Family Sharing and can be restricted via Screen Time.</p>
+
+<h2>8. Data Retention and Deletion</h2>
+<ul>
+<li><strong>Stories and all creative content:</strong> on your device only — delete them in the App or by deleting the App.</li>
+<li><strong>Cloud permission:</strong> revoke any time in Settings → AI &amp; your privacy.</li>
+<li><strong>Entitlement and usage records:</strong> kept while needed to operate your subscription.</li>
+<li><strong>Content reports:</strong> kept only as long as needed to review and fix issues.</li>
+</ul>
+<p>To request deletion of server-side records (entitlements, usage counts, reports), contact us at the address below with your request; because records are keyed to an anonymous identifier, we may ask you to send it from within the App's support flow so we can locate them.</p>
+
+<h2>9. Data Security</h2>
+<p>Device data uses iOS secure storage (SwiftData with iOS file protection). Server communication uses TLS encryption. Server-side records are stored with a managed database provider (Supabase) with access restricted to our service.</p>
+
+<h2>10. Third-Party Service Providers</h2>
+<table>
+<tr><th>Provider</th><th>Purpose</th><th>What they receive</th></tr>
+<tr><td>Apple</td><td>App distribution, purchases, on-device AI</td><td>Purchase/billing (under Apple's policy)</td></tr>
+<tr><td>Anthropic (Claude)</td><td>Cloud story text</td><td>Story prompts and text</td></tr>
+<tr><td>Google (Gemini)</td><td>Cloud illustrations</td><td>Scene descriptions + previously AI-generated story images (never your photos or drawings)</td></tr>
+<tr><td>Microsoft (Azure Speech)</td><td>Cloud narration</td><td>Story text</td></tr>
+<tr><td>Cloudflare</td><td>Our server infrastructure</td><td>Relays the above; no story content stored</td></tr>
+<tr><td>Supabase</td><td>Entitlement/usage database</td><td>Anonymous ID, purchase entitlements, usage counts, content reports</td></tr>
+</table>
+<p>We do not sell data, and no provider may use your content for advertising or AI training.</p>
+
+<h2>11. Changes to This Policy</h2>
+<p>We will update this page when our practices change and revise the "Last Updated" date. Material changes affecting children's data will be reflected in the App's consent screens.</p>
+
+<h2>12. Contact Us</h2>
+<p>Questions or requests: <strong>mrrmfamily2022@gmail.com</strong></p>
+</section>
+
+<!-- ============================== ESPAÑOL ============================== -->
+<section data-lang="es" lang="es">
+<h1>Política de Privacidad de StoryTime Buddy</h1>
+<p class="updated"><strong>Última actualización: julio de 2026</strong></p>
+<p class="note">Esta traducción se ofrece para su comodidad. En caso de discrepancia, prevalece la versión en inglés.</p>
+<p>StoryTime Buddy ("nosotros") se compromete a proteger la privacidad de los niños y las familias que usan <strong>StoryTime Buddy: AI Stories</strong> (la "App"). Esta política explica qué información maneja la App, adónde va y qué opciones tiene usted.</p>
+<p>En resumen: <strong>sus cuentos viven en su dispositivo.</strong> En dispositivos con Apple Intelligence, los cuentos pueden crearse completamente en el dispositivo. Las funciones de IA en la nube son opcionales, siempre requieren primero el permiso de un adulto dentro de la App, y envían solo lo necesario para crear el cuento — nunca su identidad.</p>
+
+<h2>1. Información almacenada solo en su dispositivo</h2>
+<p>Lo siguiente nunca sale de su dispositivo, salvo que use una función en la nube descrita en la Sección 2:</p>
+<ul>
+<li>Los cuentos que crea (texto, imágenes y audio de narración)</li>
+<li>Preferencias de personajes y ajustes</li>
+<li>Progreso de lectura, favoritos y etiquetas</li>
+<li>Preferencias de la App (idioma, ajustes de voz, tipografía)</li>
+<li>Dibujos y fotos que use en los cuentos (nunca salen de su dispositivo — las solicitudes de ilustración en la nube contienen solo descripciones de texto)</li>
+</ul>
+<p><strong>No</strong> requerimos cuentas ni registro, <strong>no</strong> recopilamos nombres, correos ni información de contacto, <strong>no</strong> rastreamos la ubicación, <strong>no</strong> usamos rastreadores de publicidad o analítica, y <strong>no</strong> mostramos anuncios.</p>
+
+<h2>2. Procesamiento de IA</h2>
+<h3>2.1 IA en el dispositivo (dispositivos con Apple Intelligence)</h3>
+<p>En dispositivos compatibles, el texto y las ilustraciones pueden generarse completamente en su dispositivo mediante Apple Intelligence e Image Playground. Nada se envía a nosotros ni a terceros, y su contenido nunca se usa para entrenar modelos de IA.</p>
+<h3>2.2 IA en la nube opcional ("magia en la nube")</h3>
+<p>Las funciones de IA en la nube (parte de la suscripción StoryTime Premium, más un cuento de prueba gratuito en dispositivos sin Apple Intelligence) usan proveedores de IA de confianza. <strong>Las funciones en la nube nunca se ejecutan sin que un adulto conceda primero el permiso dentro de la App</strong> (Ajustes → IA y tu privacidad permite ver y revocar este permiso en cualquier momento).</p>
+<p>Cuando usa funciones en la nube, se envía a través de nuestro servidor, únicamente para crear su cuento:</p>
+<ul>
+<li>Su idea/indicación y el texto del cuento → <strong>Anthropic</strong> (Claude) para escribir el cuento</li>
+<li>Descripciones de escena de cada página — y, para la consistencia del personaje, imágenes del cuento generadas previamente por IA — → <strong>Google</strong> (Gemini) para crear las ilustraciones. Sus propias fotos y dibujos nunca se envían.</li>
+<li>El texto del cuento → <strong>Microsoft</strong> (Azure Speech) para crear el audio de narración</li>
+</ul>
+<p>Usamos niveles de API de pago/empresariales de estos servicios: <strong>su contenido nunca se usa para entrenar modelos de IA</strong> y estos proveedores no lo retienen más allá del procesamiento transitorio y la supervisión de abusos a corto plazo. Los cuentos, imágenes y audio terminados se devuelven a su dispositivo y se guardan solo allí — no conservamos copia de sus cuentos.</p>
+<p>Las solicitudes pasan por nuestro servidor (alojado en Cloudflare), que aplica reglas de seguridad infantil a cada solicitud de imagen y no registra el contenido de los cuentos.</p>
+<h3>2.3 Seguridad</h3>
+<p>Cada solicitud de ilustración está restringida en el servidor a contenido apto para niños (clasificación G), y las imágenes generadas pasan una verificación de seguridad automática antes de llegar a su dispositivo. Puede reportar cualquier cuento o imagen desde el lector (ver Sección 4).</p>
+
+<h2>3. Información que procesamos para operar el servicio</h2>
+<p>Para operar las suscripciones y las cuotas de uso justo, nuestro servidor almacena:</p>
+<ul>
+<li>Un <strong>identificador anónimo generado por la App</strong> (un ID aleatorio creado en su dispositivo — sin información personal, no vinculado a su identidad)</li>
+<li><strong>Registros de derechos de compra</strong> recibidos de Apple (identificadores de transacción del App Store — nunca sus datos de pago, que conserva Apple)</li>
+<li><strong>Contadores de uso</strong> (cuántos cuentos, imágenes y caracteres de narración ha usado su suscripción este mes)</li>
+</ul>
+<p>Estos datos no permiten identificarle a usted ni a su hijo, y se usan solo para prestar el servicio comprado.</p>
+
+<h2>4. Reportes de contenido</h2>
+<p>Si reporta un cuento o imagen desde el lector ("Informar de un problema"), recibimos: la categoría del reporte, el texto de la página reportada, su nota opcional y su identificador anónimo. Los usamos solo para revisar el contenido y mejorar nuestros sistemas de seguridad.</p>
+
+<h2>5. Motores de voz con clave propia (opcional)</h2>
+<p>Si conecta su propia clave de API de Google Cloud o ElevenLabs, la clave se guarda solo en su dispositivo, y las solicitudes de narración van directamente de su dispositivo a ese proveedor bajo <strong>su</strong> cuenta y sus términos. Función pensada para adultos.</p>
+
+<h2>6. Privacidad infantil (COPPA)</h2>
+<p>StoryTime Buddy está diseñada para niños de 4 a 10 años.</p>
+<ul>
+<li>No recopilamos información personal de niños. Sin cuentas, sin funciones sociales, sin chat, sin publicidad conductual.</li>
+<li>Las funciones de IA en la nube requieren una <strong>pantalla de consentimiento parental dentro de la App</strong> y una verificación de adulto; los padres pueden revocar el permiso en Ajustes → IA y tu privacidad.</li>
+<li>Las indicaciones no deben incluir datos personales (nombres completos reales, direcciones, teléfonos). La App no los pide ni los necesita.</li>
+<li>Las compras están protegidas por un control parental además de las protecciones de Apple.</li>
+</ul>
+
+<h2>7. Compras dentro de la App</h2>
+<p>Todas las compras las procesa Apple a través del App Store. Nunca vemos su información de pago. Gestione o cancele las suscripciones en los ajustes de su Apple ID; las compras admiten En Familia y pueden restringirse con Tiempo de Uso.</p>
+
+<h2>8. Retención y eliminación de datos</h2>
+<ul>
+<li><strong>Cuentos y contenido creativo:</strong> solo en su dispositivo — elimínelos en la App o eliminando la App.</li>
+<li><strong>Permiso de nube:</strong> revocable en cualquier momento en Ajustes → IA y tu privacidad.</li>
+<li><strong>Registros de derechos y uso:</strong> se conservan mientras sean necesarios para su suscripción.</li>
+<li><strong>Reportes de contenido:</strong> se conservan solo el tiempo necesario para revisarlos.</li>
+</ul>
+<p>Para solicitar la eliminación de registros del servidor, contáctenos en la dirección de abajo; como los registros usan un identificador anónimo, podemos pedirle que envíe la solicitud desde la App para localizarlos.</p>
+
+<h2>9. Seguridad de los datos</h2>
+<p>Los datos del dispositivo usan el almacenamiento seguro de iOS (SwiftData con protección de archivos). La comunicación con el servidor usa cifrado TLS. Los registros del servidor se almacenan en una base de datos gestionada (Supabase) con acceso restringido a nuestro servicio.</p>
+
+<h2>10. Proveedores de terceros</h2>
+<table>
+<tr><th>Proveedor</th><th>Propósito</th><th>Qué recibe</th></tr>
+<tr><td>Apple</td><td>Distribución, compras, IA en el dispositivo</td><td>Compras/facturación (política de Apple)</td></tr>
+<tr><td>Anthropic (Claude)</td><td>Texto de cuentos en la nube</td><td>Indicaciones y texto de los cuentos</td></tr>
+<tr><td>Google (Gemini)</td><td>Ilustraciones en la nube</td><td>Descripciones de escena + imágenes generadas previamente por IA (nunca sus fotos o dibujos)</td></tr>
+<tr><td>Microsoft (Azure Speech)</td><td>Narración en la nube</td><td>Texto de los cuentos</td></tr>
+<tr><td>Cloudflare</td><td>Infraestructura de servidor</td><td>Retransmite lo anterior; no almacena cuentos</td></tr>
+<tr><td>Supabase</td><td>Base de datos de derechos/uso</td><td>ID anónimo, derechos, contadores de uso, reportes</td></tr>
+</table>
+<p>No vendemos datos, y ningún proveedor puede usar su contenido para publicidad o entrenamiento de IA.</p>
+
+<h2>11. Cambios en esta política</h2>
+<p>Actualizaremos esta página cuando cambien nuestras prácticas y revisaremos la fecha de "Última actualización". Los cambios importantes sobre datos de niños se reflejarán en las pantallas de consentimiento de la App.</p>
+
+<h2>12. Contacto</h2>
+<p>Preguntas o solicitudes: <strong>mrrmfamily2022@gmail.com</strong></p>
+</section>
+
+<!-- ============================== FRANÇAIS ============================== -->
+<section data-lang="fr" lang="fr">
+<h1>Politique de Confidentialité de StoryTime Buddy</h1>
+<p class="updated"><strong>Dernière mise à jour : juillet 2026</strong></p>
+<p class="note">Cette traduction est fournie pour votre commodité. En cas de divergence, la version anglaise prévaut.</p>
+<p>StoryTime Buddy (« nous ») s'engage à protéger la vie privée des enfants et des familles qui utilisent <strong>StoryTime Buddy: AI Stories</strong> (l'« App »). Cette politique explique quelles informations l'App traite, où elles vont et quels choix vous avez.</p>
+<p>En bref : <strong>vos histoires vivent sur votre appareil.</strong> Sur les appareils avec Apple Intelligence, les histoires peuvent être créées entièrement sur l'appareil. Les fonctions d'IA cloud sont optionnelles, exigent toujours d'abord l'accord d'un adulte dans l'App, et n'envoient que le nécessaire pour créer l'histoire — jamais votre identité.</p>
+
+<h2>1. Informations stockées uniquement sur votre appareil</h2>
+<p>Les éléments suivants ne quittent jamais votre appareil, sauf si vous utilisez une fonction cloud décrite à la Section 2 :</p>
+<ul>
+<li>Les histoires que vous créez (texte, images et audio de narration)</li>
+<li>Préférences de personnages et réglages</li>
+<li>Progression de lecture, favoris et étiquettes</li>
+<li>Préférences de l'App (langue, voix, police)</li>
+<li>Dessins et photos utilisés dans les histoires (ils ne quittent jamais votre appareil — les demandes d'illustration cloud ne contiennent que des descriptions textuelles)</li>
+</ul>
+<p>Nous n'exigeons <strong>pas</strong> de compte, ne collectons <strong>pas</strong> de noms, d'e-mails ni de coordonnées, ne suivons <strong>pas</strong> la localisation, n'utilisons <strong>pas</strong> de traceurs publicitaires ou analytiques, et n'affichons <strong>pas</strong> de publicité.</p>
+
+<h2>2. Traitement par IA</h2>
+<h3>2.1 IA sur l'appareil (appareils Apple Intelligence)</h3>
+<p>Sur les appareils compatibles, le texte et les illustrations peuvent être générés entièrement sur votre appareil via Apple Intelligence et Image Playground. Rien n'est envoyé à nous ni à des tiers, et votre contenu n'est jamais utilisé pour entraîner des modèles d'IA.</p>
+<h3>2.2 IA cloud optionnelle (« magie du cloud »)</h3>
+<p>Les fonctions d'IA cloud (incluses dans l'abonnement StoryTime Premium, plus une histoire d'essai gratuite sur les appareils sans Apple Intelligence) utilisent des fournisseurs d'IA de confiance. <strong>Elles ne s'exécutent jamais sans qu'un adulte ait d'abord donné son accord dans l'App</strong> (Réglages → IA et votre confidentialité permet de consulter et révoquer cet accord à tout moment).</p>
+<p>Lorsque vous utilisez les fonctions cloud, transitent par notre serveur, uniquement pour créer votre histoire :</p>
+<ul>
+<li>Votre idée/consigne et le texte de l'histoire → <strong>Anthropic</strong> (Claude) pour écrire l'histoire</li>
+<li>Les descriptions de scène de chaque page — et, pour la cohérence du personnage, des images précédemment générées par IA — → <strong>Google</strong> (Gemini) pour créer les illustrations. Vos propres photos et dessins ne sont jamais envoyés.</li>
+<li>Le texte de l'histoire → <strong>Microsoft</strong> (Azure Speech) pour créer l'audio de narration</li>
+</ul>
+<p>Nous utilisons les offres API payantes/entreprise de ces services : <strong>votre contenu n'est jamais utilisé pour entraîner des modèles d'IA</strong> et n'est pas conservé au-delà du traitement transitoire et de la surveillance anti-abus de courte durée. Les histoires, images et audio terminés reviennent sur votre appareil et n'y sont stockés que là — nous n'en gardons aucune copie.</p>
+<p>Les requêtes transitent par notre serveur (hébergé chez Cloudflare), qui applique des règles de sécurité enfant à chaque demande d'image et n'enregistre pas le contenu des histoires.</p>
+<h3>2.3 Sécurité</h3>
+<p>Chaque demande d'illustration est contrainte côté serveur à un contenu adapté aux enfants (tous publics), et les images générées passent un contrôle de sécurité automatique avant d'atteindre votre appareil. Vous pouvez signaler toute histoire ou image depuis le lecteur (voir Section 4).</p>
+
+<h2>3. Informations traitées pour faire fonctionner le service</h2>
+<p>Pour gérer les abonnements et les quotas d'usage raisonnable, notre serveur stocke :</p>
+<ul>
+<li>Un <strong>identifiant anonyme généré par l'App</strong> (ID aléatoire créé sur votre appareil — sans information personnelle, non lié à votre identité)</li>
+<li>Les <strong>droits d'achat</strong> reçus d'Apple (identifiants de transaction App Store — jamais vos données de paiement, conservées par Apple)</li>
+<li>Des <strong>compteurs d'utilisation</strong> (histoires, images et caractères de narration utilisés ce mois-ci)</li>
+</ul>
+<p>Ces données ne permettent pas de vous identifier, vous ou votre enfant, et ne servent qu'à fournir le service acheté.</p>
+
+<h2>4. Signalements de contenu</h2>
+<p>Si vous signalez une histoire ou une image depuis le lecteur (« Signaler un problème »), nous recevons : la catégorie, le texte de la page concernée, votre note facultative et votre identifiant anonyme. Les signalements servent uniquement à examiner le contenu et améliorer nos systèmes de sécurité.</p>
+
+<h2>5. Moteurs de voix avec votre propre clé (optionnel)</h2>
+<p>Si vous connectez votre propre clé API Google Cloud ou ElevenLabs, elle est stockée uniquement sur votre appareil, et les requêtes vont directement de votre appareil à ce fournisseur, sous <strong>votre</strong> compte et ses conditions. Fonction destinée aux adultes.</p>
+
+<h2>6. Confidentialité des enfants (COPPA)</h2>
+<p>StoryTime Buddy est conçue pour les enfants de 4 à 10 ans.</p>
+<ul>
+<li>Nous ne collectons pas d'informations personnelles d'enfants. Pas de comptes, pas de fonctions sociales, pas de chat, pas de publicité comportementale.</li>
+<li>Les fonctions d'IA cloud exigent un <strong>écran de consentement parental dans l'App</strong> et une vérification adulte ; révocable à tout moment dans Réglages → IA et votre confidentialité.</li>
+<li>Les consignes ne doivent pas contenir de données personnelles (vrais noms complets, adresses, téléphones). L'App ne les demande pas et n'en a pas besoin.</li>
+<li>Les achats sont protégés par un contrôle parental en plus des protections d'Apple.</li>
+</ul>
+
+<h2>7. Achats intégrés</h2>
+<p>Tous les achats sont traités par Apple via l'App Store. Nous ne voyons jamais vos informations de paiement. Gérez ou annulez les abonnements dans les réglages de votre identifiant Apple ; les achats prennent en charge le Partage familial et Temps d'écran.</p>
+
+<h2>8. Conservation et suppression des données</h2>
+<ul>
+<li><strong>Histoires et contenu créatif :</strong> uniquement sur votre appareil — supprimez-les dans l'App ou en supprimant l'App.</li>
+<li><strong>Accord cloud :</strong> révocable à tout moment dans Réglages → IA et votre confidentialité.</li>
+<li><strong>Droits et compteurs :</strong> conservés tant que nécessaire à votre abonnement.</li>
+<li><strong>Signalements :</strong> conservés uniquement le temps de leur examen.</li>
+</ul>
+<p>Pour demander la suppression des données côté serveur, contactez-nous à l'adresse ci-dessous ; les données étant liées à un identifiant anonyme, nous pourrons vous demander d'envoyer la demande depuis l'App.</p>
+
+<h2>9. Sécurité des données</h2>
+<p>Les données de l'appareil utilisent le stockage sécurisé d'iOS (SwiftData avec protection de fichiers). Les communications serveur sont chiffrées en TLS. Les données côté serveur sont stockées chez un fournisseur de base de données gérée (Supabase) avec accès restreint.</p>
+
+<h2>10. Prestataires tiers</h2>
+<table>
+<tr><th>Prestataire</th><th>Rôle</th><th>Ce qu'il reçoit</th></tr>
+<tr><td>Apple</td><td>Distribution, achats, IA sur l'appareil</td><td>Achats/facturation (politique d'Apple)</td></tr>
+<tr><td>Anthropic (Claude)</td><td>Texte des histoires cloud</td><td>Consignes et texte des histoires</td></tr>
+<tr><td>Google (Gemini)</td><td>Illustrations cloud</td><td>Descriptions de scène + images précédemment générées par IA (jamais vos photos ou dessins)</td></tr>
+<tr><td>Microsoft (Azure Speech)</td><td>Narration cloud</td><td>Texte des histoires</td></tr>
+<tr><td>Cloudflare</td><td>Infrastructure serveur</td><td>Relaye ce qui précède ; aucun contenu stocké</td></tr>
+<tr><td>Supabase</td><td>Base de données droits/usage</td><td>ID anonyme, droits, compteurs, signalements</td></tr>
+</table>
+<p>Nous ne vendons pas de données, et aucun prestataire ne peut utiliser votre contenu pour la publicité ou l'entraînement d'IA.</p>
+
+<h2>11. Modifications</h2>
+<p>Nous mettrons cette page à jour si nos pratiques changent et réviserons la date de « Dernière mise à jour ». Les changements importants concernant les données des enfants seront reflétés dans les écrans de consentement de l'App.</p>
+
+<h2>12. Contact</h2>
+<p>Questions ou demandes : <strong>mrrmfamily2022@gmail.com</strong></p>
+</section>
+
+<!-- ============================== 日本語 ============================== -->
+<section data-lang="ja" lang="ja">
+<h1>StoryTime Buddy プライバシーポリシー</h1>
+<p class="updated"><strong>最終更新日：2026年7月</strong></p>
+<p class="note">この翻訳は便宜のために提供されています。相違がある場合は英語版が優先されます。</p>
+<p>StoryTime Buddy（以下「当社」）は、<strong>StoryTime Buddy: AI Stories</strong>（以下「本アプリ」）をご利用のお子さまとご家族のプライバシー保護に取り組んでいます。本ポリシーは、本アプリが扱う情報、その送信先、およびお客さまの選択肢について説明します。</p>
+<p>要約：<strong>おはなしはお使いの端末の中に保存されます。</strong> Apple Intelligence 対応端末では、おはなしを完全に端末上で作成できます。クラウドAI機能は任意であり、必ず先にアプリ内で大人の許可が必要で、おはなしの作成に必要な情報だけを送信します — お客さまの身元情報は送信しません。</p>
+
+<h2>1. 端末内にのみ保存される情報</h2>
+<p>第2条のクラウド機能を使わない限り、以下は端末の外に出ることはありません：</p>
+<ul>
+<li>作成したおはなし（テキスト・画像・よみあげ音声）</li>
+<li>キャラクターの設定や環境設定</li>
+<li>読書の進み具合・お気に入り・タグ</li>
+<li>アプリの設定（言語・音声・フォント）</li>
+<li>おはなしに使った絵や写真（端末の外には出ません — クラウドの絵の生成にはテキストの説明のみを送ります）</li>
+</ul>
+<p>アカウント登録は<strong>不要</strong>で、氏名・メールアドレス・連絡先を<strong>収集せず</strong>、位置情報を<strong>追跡せず</strong>、広告・分析トラッカーを<strong>使わず</strong>、広告を<strong>表示しません</strong>。</p>
+
+<h2>2. AI処理</h2>
+<h3>2.1 端末上のAI（Apple Intelligence 対応端末）</h3>
+<p>対応端末では、Apple Intelligence と Image Playground により、おはなしのテキストと絵を完全に端末上で生成できます。当社や第三者には何も送信されず、お客さまのコンテンツがAIの学習に使われることはありません。</p>
+<h3>2.2 任意のクラウドAI（「クラウドのまほう」）</h3>
+<p>クラウドAI機能（StoryTime Premium サブスクリプションの一部。Apple Intelligence 非対応端末では無料のおためし1話あり）は、信頼できるAIプロバイダを使用します。<strong>クラウド機能は、必ず先にアプリ内で大人が許可しない限り動作しません</strong>（設定 → AIとプライバシー でいつでも確認・取り消しできます）。</p>
+<p>クラウド機能を使うと、おはなしの作成のためだけに、当社サーバー経由で以下が送信されます：</p>
+<ul>
+<li>おはなしのアイデア・本文 → <strong>Anthropic</strong>（Claude）がおはなしを執筆</li>
+<li>各ページの場面の説明 — キャラクターの一貫性のため、過去にAIが生成したおはなしの画像も — → <strong>Google</strong>（Gemini）が絵を作成。お客さま自身の写真や絵は決して送信されません。</li>
+<li>おはなしの本文 → <strong>Microsoft</strong>（Azure Speech）がよみあげ音声を作成</li>
+</ul>
+<p>これらのサービスは有料/エンタープライズAPIを利用しています：<strong>お客さまのコンテンツがAIの学習に使われることはなく</strong>、一時的な処理と短期の不正利用監視を超えて保持されることもありません。完成したおはなし・絵・音声は端末に返され、端末にのみ保存されます — 当社はコピーを保持しません。</p>
+<p>リクエストは当社サーバー（Cloudflare上）を経由し、すべての画像リクエストに子ども向け安全ルールを適用し、おはなしの内容は記録しません。</p>
+<h3>2.3 安全性</h3>
+<p>クラウドの絵の生成はすべてサーバー側で子ども向け（G指定）に制限され、生成された画像は端末に届く前に自動安全チェックを通過します。リーダーからどのおはなし・絵でも報告できます（第4条参照）。</p>
+
+<h2>3. サービス運営のために処理する情報</h2>
+<p>サブスクリプションと利用枠の運営のため、当社サーバーは以下を保存します：</p>
+<ul>
+<li><strong>アプリが生成する匿名識別子</strong>（端末上で作られるランダムなID — 個人情報を含まず、身元と結び付きません）</li>
+<li>Appleから受け取る<strong>購入資格の記録</strong>（App Storeの取引識別子 — お支払い情報はAppleが保持し、当社は受け取りません）</li>
+<li><strong>利用数</strong>（今月使ったおはなし・絵・よみあげ文字数）</li>
+</ul>
+<p>これらのデータでお客さまやお子さまを特定することはできず、購入されたサービスの提供のみに使用されます。</p>
+
+<h2>4. コンテンツの報告</h2>
+<p>リーダーから報告（「問題を報告」）すると、報告カテゴリ・該当ページの本文・任意のメモ・匿名識別子を受け取ります。報告は内容の確認と安全システムの改善のためだけに使用します。</p>
+
+<h2>5. ご自身のAPIキーによる音声エンジン（任意）</h2>
+<p>Google Cloud や ElevenLabs のご自身のAPIキーを接続した場合、キーは端末にのみ保存され、よみあげリクエストは端末からそのプロバイダへ直接、<strong>お客さまの</strong>アカウントと各社の規約のもとで送信されます。大人向けの機能です。</p>
+
+<h2>6. お子さまのプライバシー（COPPA）</h2>
+<p>StoryTime Buddy は4〜10歳のお子さま向けに設計されています。</p>
+<ul>
+<li>お子さまの個人情報は収集しません。アカウント・ソーシャル機能・チャット・行動ターゲティング広告はありません。</li>
+<li>クラウドAI機能は<strong>アプリ内の保護者同意画面</strong>と大人の確認で保護され、設定 → AIとプライバシー からいつでも取り消せます。</li>
+<li>おはなしの指示に個人情報（実名・住所・電話番号）を含めないでください。アプリはそれらを求めず、素敵なおはなしに必要もありません。</li>
+<li>購入はAppleの保護に加え、ペアレンタルゲートで保護されています。</li>
+</ul>
+
+<h2>7. アプリ内課金</h2>
+<p>すべての購入はApp Storeを通じてAppleが処理します。当社がお支払い情報を見ることはありません。サブスクリプションはApple IDの設定で管理・解約でき、ファミリー共有に対応し、スクリーンタイムで制限できます。</p>
+
+<h2>8. データの保持と削除</h2>
+<ul>
+<li><strong>おはなしと創作コンテンツ：</strong>端末内のみ — アプリ内で削除するか、アプリを削除してください。</li>
+<li><strong>クラウド許可：</strong>設定 → AIとプライバシー からいつでも取り消せます。</li>
+<li><strong>購入資格・利用数の記録：</strong>サブスクリプション運営に必要な期間のみ保持します。</li>
+<li><strong>コンテンツ報告：</strong>確認と対応に必要な期間のみ保持します。</li>
+</ul>
+<p>サーバー側の記録（購入資格・利用数・報告）の削除をご希望の場合は、下記までご連絡ください。記録は匿名識別子に紐付いているため、特定のためアプリ内から送信いただくようお願いする場合があります。</p>
+
+<h2>9. データセキュリティ</h2>
+<p>端末データはiOSの安全なストレージ（SwiftData＋iOSファイル保護）を使用します。サーバー通信はTLSで暗号化されます。サーバー側の記録はマネージドデータベース（Supabase）に保存され、アクセスは当社サービスに限定されます。</p>
+
+<h2>10. 第三者サービスプロバイダ</h2>
+<table>
+<tr><th>プロバイダ</th><th>目的</th><th>受け取るもの</th></tr>
+<tr><td>Apple</td><td>アプリ配信・購入・端末上AI</td><td>購入/請求（Appleのポリシーに基づく）</td></tr>
+<tr><td>Anthropic（Claude）</td><td>クラウドのおはなし本文</td><td>おはなしの指示と本文</td></tr>
+<tr><td>Google（Gemini）</td><td>クラウドの絵</td><td>場面の説明＋過去にAIが生成した画像（お客さまの写真・絵は決して含みません）</td></tr>
+<tr><td>Microsoft（Azure Speech）</td><td>クラウドのよみあげ</td><td>おはなしの本文</td></tr>
+<tr><td>Cloudflare</td><td>当社サーバー基盤</td><td>上記の中継のみ；おはなしの内容は保存しません</td></tr>
+<tr><td>Supabase</td><td>購入資格/利用数データベース</td><td>匿名ID・購入資格・利用数・コンテンツ報告</td></tr>
+</table>
+<p>データを販売することはなく、どのプロバイダもお客さまのコンテンツを広告やAI学習に使用できません。</p>
+
+<h2>11. 本ポリシーの変更</h2>
+<p>運用が変わる場合は本ページを更新し、「最終更新日」を改定します。お子さまのデータに関わる重要な変更は、アプリの同意画面にも反映されます。</p>
+
+<h2>12. お問い合わせ</h2>
+<p>ご質問・ご要望：<strong>mrrmfamily2022@gmail.com</strong></p>
+</section>
+
+<script>
+function setLang(l){
+  document.querySelectorAll('section[data-lang]').forEach(function(s){s.style.display=(s.dataset.lang===l)?'block':'none';});
+  document.querySelectorAll('.langs button').forEach(function(b){b.classList.toggle('active',b.dataset.lang===l);});
+  document.documentElement.lang=l;
+  try{localStorage.setItem('stb-lang',l);}catch(e){}
+}
+(function(){
+  var saved=null;try{saved=localStorage.getItem('stb-lang');}catch(e){}
+  var nav=(navigator.language||'en').slice(0,2);
+  var supported=['en','es','fr','ja'];
+  setLang(supported.indexOf(saved)>=0?saved:(supported.indexOf(nav)>=0?nav:'en'));
+})();
+</script>
+</body>
+</html>
